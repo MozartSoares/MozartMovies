@@ -1,0 +1,25 @@
+# Build
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files
+*.db
+
+# Generated
+wwwroot/lib/
+
+# Secrets
+appsettings.Development.json
