@@ -53,6 +53,30 @@ public static class SeedData
                 Genre = "Western",
                 Price = 3.99M,
                 Rating = "G"
+            },
+            new Movie
+            {
+                Title = "The Matrix",
+                ReleaseDate = DateTime.Parse("1999-03-31"),
+                Genre = "Science Fiction",
+                Price = 10.99M,
+                Rating = "R"
+            },
+            new Movie
+            {
+                Title = "Inception",
+                ReleaseDate = DateTime.Parse("2010-07-16"),
+                Genre = "Action",
+                Price = 12.99M,
+                Rating = "PG-13"
+            },
+            new Movie
+            {
+                Title = "The Godfather",
+                ReleaseDate = DateTime.Parse("1972-03-24"),
+                Genre = "Crime",
+                Price = 11.99M,
+                Rating = "R"
             }
         );
 
